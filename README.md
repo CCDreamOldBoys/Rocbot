@@ -15,14 +15,14 @@
 
 - 使用git克隆项目到本地
 
-- 安装Keil MDK 5.25，编译飞控工程
+- 安装Keil MDK 5.25，编译rocbot工程
 
 >[详细图文说明](https://blog.csdn.net/loveuav/article/details/88913174)
 
 ### 方式二 （Linux & GCC）
 - 安装arm-none-eabi-gcc
-- git clone https://github.com/loveuav/BlueSkyFlightControl.git
-- cd BlueSkyFlightControl
+- git clone https://github.com/CCDreamOldBoys/rocbot.git
+- cd rocbot
 - mkdir build
 - cd build
 - cmake -DCMAKE_BUILD_TYPE=Debug ..
